@@ -1,0 +1,28 @@
+# Robots.txt for Bamburi Cement Website
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location (update with your actual domain when deployed)
+# Sitemap: https://yourdomain.com/sitemap.xml
+
+# Disallow crawling of admin or sensitive areas (if any)
+# Disallow: /admin/
+# Disallow: /api/
+
+# Allow Google Ads bot
+User-agent: AdsBot-Google
+Allow: /
+
+# Allow Google Mobile Ads bot
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+# Allow Googlebot
+User-agent: Googlebot
+Allow: /
+
+# Allow Googlebot Image
+User-agent: Googlebot-Image
+Allow: /
